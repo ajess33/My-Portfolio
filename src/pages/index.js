@@ -1,19 +1,31 @@
 import React from 'react'
 import { Link } from 'gatsby'
+// import Layout from '../components/layout'
+// import Image from '../components/image'
+import styled from 'styled-components'
 
-import Layout from '../components/layout'
-import Image from '../components/image'
-
-const IndexPage = () => (
-  <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+const Home = () => (
+  <Container>
+    <Title>
+      Hello <br /> I'm Austin Jess <br /> Web Developer
+    </Title>
+  </Container>
 )
 
-export default IndexPage
+// injectGlobal`
+//   @font-face {
+//     font-family: 'montserrat';
+//     src: url();
+//   }}
+// `
+
+const Container = styled.div`
+  background-color: #212121;
+  height: 100vh;
+`
+
+const Title = styled.h1`
+  color: #888;
+`
+
+export default Home

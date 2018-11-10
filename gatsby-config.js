@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Austin Jess - Web Developer',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -32,6 +32,12 @@ module.exports = {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`montserrat\:400,900`],
       },
     },
   ],
