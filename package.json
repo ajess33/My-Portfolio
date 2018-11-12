@@ -19,10 +19,13 @@
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
+    "react-icons": "^3.2.2",
     "react-typography": "^0.16.13",
     "styled-components": "^4.0.3",
     "typography": "^0.16.17",
-    "typography-theme-doelger": "^0.15.11"
+    "typography-theme-doelger": "^0.15.11",
+    "typography-theme-fairy-gates": "^0.15.11",
+    "typography-theme-grand-view": "^0.15.10"
   },
   "keywords": [
     "gatsby"

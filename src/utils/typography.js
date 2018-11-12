@@ -1,6 +1,7 @@
 import Typography from 'typography'
-import doelgerTheme from 'typography-theme-doelger'
+import grandViewTheme from 'typography-theme-grand-view'
+// grandViewTheme.bodyFontFamily = 'Montserrat'
 
-const typography = new Typography(doelgerTheme)
+const typography = new Typography(grandViewTheme)
 
 export default typography
