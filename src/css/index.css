@@ -2,3 +2,11 @@
   font-size: 2rem;
   padding-top: 25px;
 }
+
+.white {
+  color: #fff;
+}
+
+.underline {
+  text-decoration: underline;
+}

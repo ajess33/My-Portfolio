@@ -15,12 +15,13 @@ const Nav = () => (
 
 const NavLink = styled(Link)`
   color: #888;
-  margin-top: 20px;
+  margin-top: 40px;
 `
 
 const NavBar = styled.nav`
   list-style-type: none;
   display: flex;
   max-width: 1200px;
+  margin: 0 auto;
 `
 export default Nav
