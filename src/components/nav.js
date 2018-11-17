@@ -6,7 +6,7 @@ import { FaBars } from 'react-icons/fa'
 
 const Nav = () => (
   <NavBar>
-    <NavLink className="nav--menu">
+    <NavLink to="#about_me" className="nav--menu">
       <FaBars size={30} />
     </NavLink>
     <NavLink className="nav--contact">CONTACT ME</NavLink>
