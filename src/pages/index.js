@@ -4,33 +4,36 @@ import { Link } from 'gatsby'
 // import Image from '../components/image'
 import styled from 'styled-components'
 import '../css/index.css'
-import Nav from '../components/nav'
+import '../css/globals.css'
+import Navbar from '../components/nav'
 import AboutMe from '../components/aboutMe'
 import { IoIosArrowDown } from 'react-icons/io'
 import { FaGithub, FaTwitter, FaLinkedin, FaFreeCodeCamp } from 'react-icons/fa'
 
 const Home = () => (
-  <Container>
-    <Nav />
-    <Header>
-      <H1>
-        Hello <br /> I'm <span className="white">Austin Jess</span>
-      </H1>
-      <div className="title-small">
-        <h2 className="title--desc">WEB DEVELOPER</h2>
-        <div className="icon--wrapper">
-          <FaGithub size={35} />
-          <FaTwitter size={35} />
-          <FaLinkedin size={35} />
-          <FaFreeCodeCamp size={35} />
+  <div>
+    <Container>
+      <Navbar />
+      <Header>
+        <H1>
+          Hello <br /> I'm <span className="white">Austin Jess</span>
+        </H1>
+        <div className="title-small">
+          <h2 className="title--desc">WEB DEVELOPER</h2>
+          <div className="icon--wrapper">
+            <FaGithub size={35} />
+            <FaTwitter size={35} />
+            <FaLinkedin size={35} />
+            <FaFreeCodeCamp size={35} />
+          </div>
         </div>
-      </div>
-    </Header>
-    <Div>
-      <IoIosArrowDown className="bottom-icon" size={75} />
-    </Div>
-    <AboutMe />
-  </Container>
+      </Header>
+      <Div>
+        <IoIosArrowDown className="bottom-icon" size={75} />
+      </Div>
+      <AboutMe />
+    </Container>
+  </div>
 )
 
 const Div = styled.div`

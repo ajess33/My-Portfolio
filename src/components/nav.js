@@ -2,26 +2,40 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import '../css/nav.css'
-import { FaBars } from 'react-icons/fa'
 
-const Nav = () => (
-  <NavBar>
-    <NavLink to="#about_me" className="nav--menu">
-      <FaBars size={30} />
-    </NavLink>
-    <NavLink className="nav--contact">CONTACT ME</NavLink>
-  </NavBar>
-)
+const Navbar = () => {
+  return (
+    <nav role="navigation">
+      <div id="menu-toggle">
+        <input type="checkbox" />
 
-const NavLink = styled(Link)`
-  color: #888;
-  margin-top: 40px;
-`
+        <span />
+        <span />
+        <span />
 
-const NavBar = styled.nav`
-  list-style-type: none;
-  display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
-`
-export default Nav
+        <ul id="menu">
+          <a href="#">
+            <li>HOME</li>
+          </a>
+          <a href="#">
+            <li>ABOUT ME</li>
+          </a>
+          <a href="#">
+            <li>THE PORTFOLIO</li>
+          </a>
+          <a href="#">
+            <li>CONTACT ME</li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+  )
+}
+
+export default Navbar
+
+// <div>
+//   <Link id="nav-contact" to="#">
+//     CONTACT ME
+//   </Link>
+// </div>
