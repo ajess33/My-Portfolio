@@ -1,7 +1,7 @@
 .bottom-icon {
   color: #888;
   position: relative;
-  margin-top: 270px;
+  margin-top: 80px;
   cursor: pointer;
   animation-name: slidein;
   -webkit-animation: bounce 2s infinite;
@@ -25,4 +25,23 @@
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
   }
+}
+
+.page--wrapper {
+  margin: 100px 100px 0 100px;
+  height: 100vh;
+}
+
+.section--title {
+  font-size: 5.5rem;
+  font-weight: bold;
+  line-height: 0.9;
+  width: 450px;
+  color: #888;
+  font-weight: 900;
+  margin-left: 10%;
+}
+
+.div__center {
+  text-align: center;
 }

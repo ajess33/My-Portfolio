@@ -1,7 +1,7 @@
 .title--desc {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   padding-top: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .white {
@@ -20,4 +20,11 @@
   display: flex;
   max-width: 250px;
   justify-content: space-between;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
