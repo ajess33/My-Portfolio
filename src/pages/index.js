@@ -7,14 +7,15 @@ import '../css/index.css'
 import '../css/globals.css'
 import Navbar from '../components/nav'
 import AboutMe from '../components/aboutMe'
+import Portfolio from '../components/portfolio'
 import { IoIosArrowDown } from 'react-icons/io'
-import { FaGithub, FaTwitter, FaLinkedin, FaFreeCodeCamp } from 'react-icons/fa'
+import { FiGithub, FiTwitter, FiLinkedin, FiMail } from 'react-icons/fi'
 
 const Home = () => (
   <div>
     <Container>
       <Navbar />
-      <div className="flex-wrapper">
+      <div className="index--flex-wrapper">
         <Header>
           <H1>
             HELLO <br /> I'M <span className="white">AUSTIN JESS</span>
@@ -22,10 +23,10 @@ const Home = () => (
           <div className="title-small">
             <h2 className="title--desc">WEB DEVELOPER</h2>
             <div className="icon--wrapper">
-              <FaGithub size={35} />
-              <FaTwitter size={35} />
-              <FaLinkedin size={35} />
-              <FaFreeCodeCamp size={35} />
+              <FiGithub size={35} />
+              <FiTwitter size={35} />
+              <FiLinkedin size={35} />
+              <FiMail size={35} />
             </div>
           </div>
         </Header>
@@ -34,6 +35,7 @@ const Home = () => (
         <IoIosArrowDown className="bottom-icon" size={75} />
       </CenterDiv>
       <AboutMe />
+      <Portfolio />
     </Container>
   </div>
 )

@@ -22,7 +22,7 @@
   justify-content: space-between;
 }
 
-.flex-wrapper {
+.index--flex-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;

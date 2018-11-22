@@ -27,16 +27,25 @@
   }
 }
 
-.page--wrapper {
+.heading--wrapper {
   margin: 100px 100px 0 100px;
-  height: 100vh;
+}
+
+.page--wrapper {
+  margin: 100px 50px 0 50px;
+}
+
+@media (max-width: 600px) {
+  .heading--wrapper {
+    margin: 100px 50px 0 100px;
+  }
 }
 
 .section--title {
-  font-size: 5.5rem;
+  font-size: 5.2rem;
   font-weight: bold;
   line-height: 0.9;
-  width: 450px;
+  /* width: 450px; */
   color: #888;
   font-weight: 900;
   margin-left: 10%;
