@@ -7,7 +7,9 @@ import { IoIosArrowDown } from 'react-icons/io'
 const Portfolio = () => (
   <div>
     <div className="heading--wrapper">
-      <h2 className="section--title">THE PORTFOLIO</h2>
+      <h2 className="section--title">
+        THE <br /> PORTFOLIO
+      </h2>
     </div>
     <div page--wrapper>
       <div className="div__center">
