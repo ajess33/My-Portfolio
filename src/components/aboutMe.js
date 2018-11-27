@@ -4,10 +4,12 @@ import styled from 'styled-components'
 import '../css/globals.css'
 import '../css/aboutMe.css'
 import { IoIosArrowDown } from 'react-icons/io'
+import { FaReact, FaNodeJs, FaJs, FaGit, FaCss3 } from 'react-icons/fa'
 
 const AboutMe = () => (
   <div name="about_me">
     <div className="heading--wrapper">
+      <div className="line-decoration" />
       <h2 className="section--title">
         ABOUT <br /> AUSTIN
       </h2>
@@ -20,16 +22,27 @@ const AboutMe = () => (
       <div className="flex-wrapper">
         <div>
           <p className="desc-body">
-            Computers and learning have always been something I've enjoyed, and
-            in late 2017, I began teaching myself web development. I quickly
-            fell in love with writing code and being in an envrionment that
-            allows for constant learning.
-            <br />I
+            I am a web developer from the Iowa City, Iowa area and I've been
+            teching myself web development since late 2017. The fast-paced
+            environment seemed daunting at first, but I quickly realized how
+            much I loved learning new technology and different ways to implement
+            it. I also have a marketing degree from the University of Iowa that
+            allows me to attack some problems with more of a business sense. I
+            am looking to gain more real world experience in the industry so if
+            you have an opportunity or would just like to talk, pleae feel free
+            to contact!
           </p>
         </div>
         <div>
           <p className="img">Picture of me</p>
         </div>
+      </div>
+      <div className="skills">
+        <FaJs size={75} />
+        <FaReact size={75} />
+        <FaNodeJs size={75} />
+        <FaGit size={75} />
+        <FaCss3 size={75} />
       </div>
       <div className="div__center">
         <IoIosArrowDown className="bottom-icon" size={75} />
@@ -37,8 +50,6 @@ const AboutMe = () => (
     </div>
   </div>
 )
-
-const TechSkills = () => <div className="flex-icons" />
 
 export default AboutMe
 
@@ -48,3 +59,5 @@ export default AboutMe
 // REACT
 // GIT
 //
+
+// - love the learning

@@ -7,6 +7,7 @@ import { IoIosArrowDown } from 'react-icons/io'
 const Portfolio = () => (
   <div>
     <div className="heading--wrapper">
+      <div className="line-decoration" />
       <h2 className="section--title">
         THE <br /> PORTFOLIO
       </h2>

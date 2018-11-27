@@ -1,7 +1,7 @@
 .bottom-icon {
   color: #888;
   position: relative;
-  margin-top: 80px;
+  margin-top: 120px;
   cursor: pointer;
   animation-name: slidein;
   -webkit-animation: bounce 2s infinite;
@@ -28,11 +28,21 @@
 }
 
 .heading--wrapper {
-  margin: 100px 100px 0 100px;
+  margin: 120px 100px 0 100px;
+  display: flex;
+  margin-left: 10%;
+}
+
+.line-decoration {
+  border-bottom: 8px solid #444;
+  width: 150px;
+  height: 20px;
+  padding: 40px 20px 0 0;
+  margin-right: 40px;
 }
 
 .page--wrapper {
-  margin: 100px 50px 0 50px;
+  margin: 50px 50px 0 50px;
 }
 
 @media (max-width: 600px) {
@@ -48,7 +58,6 @@
   /* width: 450px; */
   color: #888;
   font-weight: 900;
-  margin-left: 10%;
 }
 
 .div__center {
