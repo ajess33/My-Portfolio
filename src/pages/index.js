@@ -8,6 +8,7 @@ import '../css/globals.css'
 import Navbar from '../components/nav'
 import AboutMe from '../components/aboutMe'
 import Portfolio from '../components/portfolio'
+import Contact from '../components/contact'
 import { IoIosArrowDown } from 'react-icons/io'
 import { FiGithub, FiTwitter, FiLinkedin, FiMail } from 'react-icons/fi'
 
@@ -36,6 +37,7 @@ const Home = () => (
       </CenterDiv>
       <AboutMe />
       <Portfolio />
+      <Contact />
     </Container>
   </div>
 )

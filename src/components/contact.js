@@ -6,8 +6,10 @@ import '../css/globals.css'
 const Contact = () => (
   <div name="contact">
     <div className="heading--wrapper">
-      <h1>
-        GET IN <br /> TOUCH
+      <div className="line-decoration" />
+
+      <h1 className="section--title">
+        GET <br /> IN TOUCH
       </h1>
     </div>
   </div>
