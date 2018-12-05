@@ -71,3 +71,15 @@ const Header = styled.div`
 `
 
 export default Home
+
+export const pageQuery = graphql`
+  query {
+    dunderImage: file(relativePath: { eq: "images/dunder-screenshot.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`

@@ -17,7 +17,10 @@ const AboutMe = () => (
     <div className="page--wrapper">
       <p className="desc-main">
         I have a passion for building things, but I'm not good with my hands so
-        I guess I'm stuck with computers 😉
+        I guess I'm stuck with computers{' '}
+        <span role="img" aria-label>
+          😉
+        </span>
       </p>
       <div className="flex-wrapper">
         <div>
