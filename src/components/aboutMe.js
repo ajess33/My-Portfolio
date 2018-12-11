@@ -32,7 +32,7 @@ const AboutMe = () => (
             it. I also have a marketing degree from the University of Iowa that
             allows me to attack some problems with more of a business sense. I
             am looking to gain more real world experience in the industry so if
-            you have an opportunity or would just like to talk, pleae feel free
+            you have an opportunity or would just like to talk, please feel free
             to contact!
           </p>
         </div>
