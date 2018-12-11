@@ -62,6 +62,20 @@ const ProjAcg = () => (
     <h4>A CLEAN GETAWAY WEBSITE</h4>
     <div className="project--flex">
       <img src={AcgScreenshot} alt="A Clean Getaway website screenshot" />
+      <div>
+        <p className="project--desc">
+          This was the first website I ever made for a client. This was also my
+          first time I had used Gatsby.js, the static site generator and I have
+          since used it in every project since. My biggest challenge was
+          designing the website trying to make the content look pleasing to the
+          eye. I spent a lot of time researching web design and I learned a
+          bunch from it and am excited to learn more about design in the future.
+        </p>
+        <ProjectLinks
+          live="https://acleangetawayllc.netlify.com/"
+          code="https://github.com/ajess33/A-Clean-Getaway-Website"
+        />
+      </div>
     </div>
   </div>
 )
@@ -71,6 +85,19 @@ const ProjPomo = () => (
     <h4>POMODORO CLOCK</h4>
     <div className="project--flex">
       <img src={PomoScreenshot} alt="Pomodoro clock screenshot" />
+      <div>
+        <p className="project--desc">
+          I made this project as part of the FreeCodeCamp curriculum. It was the
+          first project I had ever created when I began teaching myself and I
+          learned so much, but most importantly, I learned how exciting it was
+          to build something from the ground up. This was written in vanilla
+          javascript so it really helped me nail some of the basics down.
+        </p>
+        <ProjectLinks
+          live="https://ajess33.github.io/Pomodoro-Clock/"
+          code="https://github.com/ajess33/Pomodoro-Clock"
+        />
+      </div>
     </div>
   </div>
 )
