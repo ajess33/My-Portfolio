@@ -3,6 +3,8 @@ import '../css/globals.css'
 import '../css/portfolio.css'
 import { IoIosArrowDown } from 'react-icons/io'
 import DunderScreenshot from '../images/dunder-screenshot.png'
+import AcgScreenshot from '../images/acg-screenshot.png'
+import PomoScreenshot from '../images/pomo-screenshot.png'
 
 const Portfolio = () => (
   <div name="portfolio">
@@ -19,6 +21,8 @@ const Portfolio = () => (
       </p>
       <div className="projects-list">
         <ProjIpsum />
+        <ProjAcg />
+        <ProjPomo />
       </div>
       <div className="div__center">
         <IoIosArrowDown className="bottom-icon" size={75} />
@@ -35,33 +39,48 @@ const ProjIpsum = () => (
       <div>
         <p className="project--desc">
           This is a lorem ipsum generator using quotes from the tv show, 'The
-          Office'. I created this while I was learning React.js. Because of
-          this, I didn't spend a whole lot of time styling. This was the first
-          project I had made using React and it helped solidify some of what I
-          had learned in tutorials. One challenge I had was working with state
-          and getting the data to the correct component. After much frustration
-          I was able to solve the problem by rethinking the state. Despite the
-          challenges, this was the project I began to fell in love with React!
+          Office'. I created the project while I was learning React.js. Because
+          of this, I didn't spend a whole lot of time styling. This was the
+          first project I had made using React and it helped solidify some of
+          what I had learned in tutorials. One challenge I had was working with
+          state and getting the data to the correct component. After much
+          frustration I was able to solve the problem by rethinking the state.
+          Despite the challenges, this was the project I began to fell in love
+          with React!
         </p>
-        <ProjectLinks />
+        <ProjectLinks
+          live="https://ajess33.github.io/dunder-mifflinipsum/"
+          code="https://github.com/ajess33/dunder-mifflinipsum"
+        />
       </div>
-      <div className="project__seperator" />
     </div>
   </div>
 )
 
-const ProjACG = () => (
-  <div className="project--wrapper">
+const ProjAcg = () => (
+  <div className="project">
     <h4>A CLEAN GETAWAY WEBSITE</h4>
+    <div className="project--flex">
+      <img src={AcgScreenshot} alt="A Clean Getaway website screenshot" />
+    </div>
   </div>
 )
 
-const ProjectLinks = () => (
+const ProjPomo = () => (
+  <div className="project">
+    <h4>POMODORO CLOCK</h4>
+    <div className="project--flex">
+      <img src={PomoScreenshot} alt="Pomodoro clock screenshot" />
+    </div>
+  </div>
+)
+
+const ProjectLinks = props => (
   <div className="buttons-flex">
-    <a className="link" to="https://ajess33.github.io/dunder-mifflinipsum/">
+    <a className="link" href={props.live}>
       SEE IT LIVE
     </a>
-    <a className="link" to="https://github.com/ajess33/dunder-mifflinipsum">
+    <a className="link" href={props.code}>
       SEE THE CODE
     </a>
   </div>

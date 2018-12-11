@@ -1,7 +1,7 @@
 .projects-list {
   max-width: 1000px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .project--flex {
@@ -11,6 +11,7 @@
 }
 
 .project {
+  margin: 40px 0;
   border-bottom: 1px solid #888;
 }
 
@@ -25,6 +26,8 @@ img {
   width: 400px;
   height: 467px;
   opacity: 0.8;
+  border-radius: 3px;
+  margin-bottom: 40px;
 }
 
 .project--desc {
