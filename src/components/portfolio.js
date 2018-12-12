@@ -33,7 +33,7 @@ const Portfolio = () => (
 
 const ProjIpsum = () => (
   <div className="project">
-    <h4>DUNDER-MIFFLINIPSUM</h4>
+    <h4 className="project--title">DUNDER-MIFFLINIPSUM</h4>
     <div className="project--flex">
       <img src={DunderScreenshot} alt="Dunder-MifflinIpsum screenshot" />
       <div>
@@ -59,7 +59,7 @@ const ProjIpsum = () => (
 
 const ProjAcg = () => (
   <div className="project">
-    <h4>A CLEAN GETAWAY WEBSITE</h4>
+    <h4 className="project--title">A CLEAN GETAWAY WEBSITE</h4>
     <div className="project--flex">
       <img src={AcgScreenshot} alt="A Clean Getaway website screenshot" />
       <div>
@@ -82,7 +82,7 @@ const ProjAcg = () => (
 
 const ProjPomo = () => (
   <div className="project">
-    <h4>POMODORO CLOCK</h4>
+    <h4 className="project--title">POMODORO CLOCK</h4>
     <div className="project--flex">
       <img src={PomoScreenshot} alt="Pomodoro clock screenshot" />
       <div>
