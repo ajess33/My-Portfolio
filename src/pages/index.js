@@ -9,6 +9,7 @@ import Navbar from '../components/nav'
 import AboutMe from '../components/aboutMe'
 import Portfolio from '../components/portfolio'
 import Contact from '../components/contact'
+import Footer from '../components/footer'
 import { IoIosArrowDown } from 'react-icons/io'
 import { FiGithub, FiTwitter, FiLinkedin, FiMail } from 'react-icons/fi'
 
@@ -16,7 +17,7 @@ const Home = () => (
   <div>
     <Container>
       <Navbar />
-      <div className="index--flex-wrapper">
+      <div id="welcome" className="index--flex-wrapper">
         <Header>
           <H1>
             HELLO <br /> I'M <span className="white">AUSTIN JESS</span>
@@ -46,6 +47,7 @@ const Home = () => (
       <AboutMe />
       <Portfolio />
       <Contact />
+      <Footer />
     </Container>
   </div>
 )

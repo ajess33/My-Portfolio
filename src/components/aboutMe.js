@@ -7,11 +7,11 @@ import { IoIosArrowDown } from 'react-icons/io'
 import { FaReact, FaNodeJs, FaJs, FaGit, FaCss3 } from 'react-icons/fa'
 
 const AboutMe = () => (
-  <div name="about_me">
+  <div id="about-me">
     <div className="heading--wrapper">
       <div className="line-decoration" />
       <h2 className="section--title">
-        ABOUT <br /> AUSTIN
+        ABOUT <br /> ME
       </h2>
     </div>
     <div className="page--wrapper">

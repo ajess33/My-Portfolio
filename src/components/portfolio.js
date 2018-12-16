@@ -7,7 +7,7 @@ import AcgScreenshot from '../images/acg-screenshot.png'
 import PomoScreenshot from '../images/pomo-screenshot.png'
 
 const Portfolio = () => (
-  <div name="portfolio">
+  <div id="portfolio">
     <div className="page--wrapper">
       <div className="heading--wrapper">
         <div className="line-decoration" />

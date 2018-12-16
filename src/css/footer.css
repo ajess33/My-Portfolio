@@ -1,0 +1,45 @@
+.footer-wrapper {
+  height: 400px;
+  background: #111;
+  border-top: 1px solid #555;
+}
+
+.flex-wrap {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.flex-wrap a {
+  font-weight: 900;
+  letter-spacing: 1.2px;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.icon-wrap {
+  margin: 0 auto;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.icon-wrap a {
+  cursor: pointer;
+  color: #555;
+}
+
+.footer--copy {
+  padding-top: 60px;
+  font-size: 0.7rem;
+}
+
+.footer--copy p {
+  width: 300px;
+  margin: 0 auto;
+  color: #555;
+  text-align: center;
+}

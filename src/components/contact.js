@@ -6,7 +6,7 @@ import '../css/contact.css'
 import { FiGithub, FiTwitter, FiLinkedin } from 'react-icons/fi'
 
 const Contact = () => (
-  <div name="contact">
+  <div id="contact">
     <div className="heading--wrapper">
       <div className="line-decoration" />
       <h1 className="section--title">
@@ -15,18 +15,31 @@ const Contact = () => (
     </div>
     <div className="page--wrapper">
       <p className="desc-main">
-        I am looking to gain more experience within the industry and meet new
+        I'm looking to gain more experience within the industry and meet new
         people so don't be afraid to say hi!
       </p>
       <div className="contact--wrapper">
         <p className="contact--desc">
-          Feel free to reach out on any of these platforms or{' '}
-          <span className="contact--email">email me at ajess33@gmail.com</span>:
+          Feel free to send me an email at{' '}
+          <span className="contact--email">ajess33@gmail.com</span> or reach out
+          on one of these platforms
         </p>
         <div className="icon-wrapper">
-          <FiTwitter size={35} className="contact--icons" />
-          <FiLinkedin size={35} className="contact--icons" />
-          <FiGithub size={35} className="contact--icons" />
+          <a
+            className="contact--links"
+            href="https://twitter.com/ajessscript?lang=en"
+          >
+            TWITTER
+          </a>
+          <a
+            className="contact--links"
+            href="https://www.linkedin.com/in/austin-jess-7933b5154/"
+          >
+            LINKEDIN
+          </a>
+          <a className="contact--links" href="https://github.com/ajess33">
+            GITHUB
+          </a>
         </div>
       </div>
     </div>
