@@ -61,7 +61,7 @@ const Container = styled.div`
 `
 
 const H1 = styled.h1`
-  font-size: 5rem;
+  font-size: 4.5rem;
   letter-spacing: 2px;
   line-height: 0.9;
   font-weight: 900;
