@@ -60,6 +60,15 @@
   font-weight: 900;
 }
 
+@media (max-width: 1050px) {
+  .section--title {
+    font-size: 4.5rem;
+  }
+  .line-decoration {
+    padding-top: 30px;
+  }
+}
+
 .div__center {
   text-align: center;
 }

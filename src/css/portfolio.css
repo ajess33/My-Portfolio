@@ -29,6 +29,16 @@ img {
   border-radius: 3px;
   margin-bottom: 40px;
 }
+@media (max-width: 1050px) {
+  img {
+    width: 342px;
+    height: 400px;
+  }
+  /* WHY DOESNT THIS WORK? */
+  .project--desc {
+    width: 400px;
+  }
+}
 
 .project--desc {
   width: 500px;

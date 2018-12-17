@@ -21,6 +21,20 @@ p {
   width: 300px;
 }
 
+@media (max-width: 900px) {
+  .flex-wrapper {
+    flex-direction: column-reverse;
+  }
+  .desc-body {
+    padding-top: 40px;
+  }
+
+  .desc-body,
+  .img {
+    margin: 0 auto;
+  }
+}
+
 .skills {
   padding-top: 80px;
   color: #888;

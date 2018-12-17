@@ -66,9 +66,9 @@ const H1 = styled.h1`
   line-height: 0.9;
   font-weight: 900;
 
-  /* @media (max-width: 900px) {
-
-  } */
+  @media (max-width: 850px) {
+    font-size: 3.5rem;
+  }
 `
 
 const Header = styled.div`
