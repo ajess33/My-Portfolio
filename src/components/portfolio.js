@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import '../css/globals.css'
 import '../css/portfolio.css'
 import { IoIosArrowDown } from 'react-icons/io'
@@ -25,7 +26,9 @@ const Portfolio = () => (
         <ProjPomo />
       </div>
       <div className="div__center">
-        <IoIosArrowDown className="bottom-icon" size={75} />
+        <Link to="#contact">
+          <IoIosArrowDown className="bottom-icon" size={75} />
+        </Link>
       </div>
     </div>
   </div>

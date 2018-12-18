@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import styled from 'styled-components'
 import '../css/globals.css'
 import '../css/aboutMe.css'
 import { IoIosArrowDown } from 'react-icons/io'
@@ -45,7 +44,9 @@ const AboutMe = () => (
         <FaCss3 size={75} />
       </div>
       <div className="div__center">
-        <IoIosArrowDown className="bottom-icon" size={75} />
+        <Link to="#portfolio">
+          <IoIosArrowDown className="bottom-icon" size={75} />
+        </Link>
       </div>
     </div>
   </div>

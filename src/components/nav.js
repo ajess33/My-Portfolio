@@ -17,13 +17,13 @@ const Navbar = () => {
           <a href="#">
             <li>HOME</li>
           </a>
-          <a href="#">
+          <a href="#about-me">
             <li>ABOUT ME</li>
           </a>
-          <a href="#">
+          <a href="#portfolio">
             <li>THE PORTFOLIO</li>
           </a>
-          <a href="#">
+          <a href="#contact">
             <li>CONTACT ME</li>
           </a>
         </ul>
@@ -33,9 +33,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-// <div>
-//   <Link id="nav-contact" to="#">
-//     CONTACT ME
-//   </Link>
-// </div>

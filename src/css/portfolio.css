@@ -8,11 +8,13 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .project {
   margin: 40px 0;
   border-bottom: 1px solid #888;
+  padding-bottom: 20px;
 }
 
 .project--title {
@@ -29,21 +31,26 @@ img {
   border-radius: 3px;
   margin-bottom: 40px;
 }
-@media (max-width: 1050px) {
-  img {
-    width: 342px;
-    height: 400px;
-  }
-  /* WHY DOESNT THIS WORK? */
-  .project--desc {
-    width: 400px;
-  }
-}
 
 .project--desc {
   width: 500px;
   line-height: 1.8;
   color: #888;
+}
+@media (max-width: 1050px) {
+  img {
+    width: 342px;
+    height: 400px;
+  }
+  .project--desc {
+    width: 400px;
+  }
+  .project--flex {
+    justify-content: space-around;
+  }
+  .project--title {
+    text-align: center;
+  }
 }
 
 .link {
@@ -67,4 +74,13 @@ img {
 
 .spacer {
   padding-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .project--desc {
+    width: 500px;
+  }
+  .project--title {
+    font-size: 1.7rem;
+  }
 }

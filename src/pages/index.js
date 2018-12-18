@@ -42,7 +42,9 @@ const Home = () => (
         </Header>
       </div>
       <CenterDiv>
-        <IoIosArrowDown className="bottom-icon" size={75} />
+        <Link to="#about-me">
+          <IoIosArrowDown className="bottom-icon" size={75} />
+        </Link>
       </CenterDiv>
       <AboutMe />
       <Portfolio />
@@ -68,6 +70,10 @@ const H1 = styled.h1`
 
   @media (max-width: 850px) {
     font-size: 3.5rem;
+  }
+
+  @media (max-width: 660px) {
+    font-size: 2.5rem;
   }
 `
 
