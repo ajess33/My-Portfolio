@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-// import Layout from '../components/layout'
-// import Image from '../components/image'
 import styled from 'styled-components'
 import '../css/index.css'
 import '../css/globals.css'
@@ -12,9 +10,15 @@ import Contact from '../components/contact'
 import Footer from '../components/footer'
 import { IoIosArrowDown } from 'react-icons/io'
 import { FiGithub, FiTwitter, FiLinkedin, FiMail } from 'react-icons/fi'
+import { Helmet } from 'react-helmet'
 
-const Home = () => (
+//favicon goes in helmet tag
+
+const Home = data => (
   <div>
+    <Helmet>
+      <title>{data.site.siteMetadata.title}</title>
+    </Helmet>
     <Container>
       <Navbar />
       <div id="welcome" className="index--flex-wrapper">

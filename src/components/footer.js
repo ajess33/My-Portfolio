@@ -13,13 +13,13 @@ const Footer = () => (
       <Link to="#contact">CONTACT</Link>
     </div>
     <div className="icon-wrap">
-      <a>
+      <a href="https://github.com/ajess33">
         <FiGithub size={25} />
       </a>
-      <a>
+      <a href="https://twitter.com/ajessscript?lang=en">
         <FiTwitter size={25} />
       </a>
-      <a>
+      <a href="https://www.linkedin.com/in/austin-jess-7933b5154/">
         <FiLinkedin size={25} />
       </a>
       <a>
