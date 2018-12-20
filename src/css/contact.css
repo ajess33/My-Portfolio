@@ -27,3 +27,7 @@
   font-weight: 900;
   letter-spacing: 1.2px;
 }
+
+.contact--links:hover {
+  color: #555;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import '../css/index.css'
 import '../css/globals.css'
@@ -14,7 +15,7 @@ import { Helmet } from 'react-helmet'
 
 //favicon goes in helmet tag
 
-const Home = data => (
+const Home = ({ data }) => (
   <div>
     <Helmet>
       <title>{data.site.siteMetadata.title}</title>
@@ -90,3 +91,13 @@ const Header = styled.div`
 `
 
 export default Home
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
