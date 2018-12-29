@@ -4,7 +4,7 @@ module.exports = {
     titleAlt: `Austin Jess`,
     siteUrl: `https://www.austinjess.me/`,
     description: `Web developer based in Iowa. `,
-    keywords: `iowa, 'web developer',  `,
+    keywords: `iowa, 'web developer', javascript`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -21,6 +21,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-122671806-3',
+        head: true,
       },
     },
     `gatsby-plugin-styled-components`,

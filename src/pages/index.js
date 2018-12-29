@@ -19,6 +19,8 @@ const Home = ({ data }) => (
   <div>
     <Helmet>
       <title>{data.site.siteMetadata.title}</title>
+      <meta name="description" content={data.site.siteMetadata.description} />
+      <html lang="en" />
     </Helmet>
     <Container>
       <Navbar />
@@ -65,6 +67,7 @@ const CenterDiv = styled.div`
 
 const Container = styled.div`
   background-color: #212121;
+  /* background-color: #1c1c1c; */
 `
 
 const H1 = styled.h1`
