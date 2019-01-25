@@ -17,11 +17,11 @@ p {
   line-height: 1.75;
 }
 
-.img {
+/* .img-headshot {
   width: 300px;
-}
+} */
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   .flex-wrapper {
     flex-direction: column-reverse;
   }
@@ -30,7 +30,7 @@ p {
   }
 
   .desc-body,
-  .img {
+  .img-headshot {
     margin: 0 auto;
   }
 }

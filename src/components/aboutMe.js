@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import '../css/globals.css'
 import '../css/aboutMe.css'
+import Headshot from '../images/headshot-bw.png'
 import { IoIosArrowDown } from 'react-icons/io'
 import { FaReact, FaNodeJs, FaJs, FaGit, FaCss3 } from 'react-icons/fa'
 
@@ -20,9 +21,16 @@ const AboutMe = () => (
       </p>
       <div className="flex-wrapper">
         <div>
+          <img
+            src={Headshot}
+            className="img-headshot"
+            alt="headshot of myself"
+          />
+        </div>
+        <div>
           <p className="desc-body">
             I am a web developer from the Iowa City, Iowa area and I've been
-            teching myself web development since late 2017. The fast-paced
+            teaching myself web development since late 2017. The fast-paced
             environment seemed daunting at first, but I quickly realized how
             much I loved learning new technology and different ways to implement
             it. I also have a marketing degree from the University of Iowa that
@@ -31,9 +39,6 @@ const AboutMe = () => (
             you have an opportunity or would just like to talk, please feel free
             to contact!
           </p>
-        </div>
-        <div>
-          <p className="img">Picture of me</p>
         </div>
       </div>
       <div className="skills">
@@ -53,12 +58,3 @@ const AboutMe = () => (
 )
 
 export default AboutMe
-
-// Javascript
-// CSS
-// HTML
-// REACT
-// GIT
-//
-
-// - love the learning
